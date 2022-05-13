@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+  {% block head %}
+
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = '/css/index.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script>
+
+        var danceDates = {{ dance_dates|tojson }}
+
+    </script>
+
+  {% endblock %}
+
+{% block body %}
+
+    <div class = "gothic_main">
+        <div class = "gothic_main_trip">
+            <h1>Gothic Dream</h1>
+            <h1>Gothic Dream</h1>
+            <h1>Gothic Dream</h1>
+        </div>
+    </div>
+
+    <div class = "dance_wrapper">
+        <div class = "dance_with_death">
+            <div class = "dance_with_death_scheduling">
+                Schedule your appointment!
+            </div>
+            <div id = "date_selection">
+                <form action = "/">
+                    <select name = "month_select" id = "month_select">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <input id = "submitting_dance" type = "submit" name = "submit" value = "SUBMIT" onclick = "selectDate()">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div id = "dance_clock_wrapper">
+        <div id = "dance_clock">
+            SCHEDULE YOUR DANCE!
+        </div>
+    </div>
+
+{% endblock %}
+
