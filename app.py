@@ -8,7 +8,7 @@ from routing.routes_api import *
 import datetime
 
 def create_app():
-    app = Flask(__name__)
+    app = Flask(__name__, template_folder = "Templates")
 
     set_config(app.config, app.jinja_env)
 
