@@ -136,11 +136,14 @@ monthSelect.addEventListener("change", event => {
 
                   scheduledDate = {"day":rmDate.parentNode.parentNode.previousElementSibling.innerText, "month":month, "hour":rmDate.previousElementSibling.innerText};
                   rmDate.style.display = "none";
+                  console.log(scheduledDates);
                   scheduledDates.forEach(d => {
 
+                    console.log(equalObjects(d, scheduledDate));
                     if (equalObjects(d, scheduledDate)) { scheduledDates.splice(scheduledDates.indexOf(d), 1); console.log(scheduledDates); }
 
                   })
+                  console.log(scheduledDates);
                   rmDate.previousElementSibling.style.pointerEvents = "auto";
                   rmDate.previousElementSibling.style.backgroundColor = "#F2F1F1";
                   ajaxRequest("DELETE", scheduledDate);
@@ -281,6 +284,11 @@ function sortListOfDicts(property) {
         if (property == "month") {
             var result = (months.indexOf(a[property]) < months.indexOf(b[property])) ? -1 : (months.indexOf(a[property]) > months.indexOf(b[property])) ? 1 : 0;
         }
+        if (property == "day") {
+
+            var result = (parseInt(a[property]) < parseInt(b[property])) ? -1 : (parseInt(a[property]) > parseInt(b[property])) ? 1 : 0;
+
+        }
         return result * sortOrder;
     }
 
@@ -288,7 +296,7 @@ function sortListOfDicts(property) {
 
 function getFirstDance() {
 
-    for (const scheduledDate of scheduledDates) scheduledDate["day"] = parseInt(scheduledDate["day"]);
+    console.log(scheduledDates);
     scheduledDates.sort(sortListOfDicts("month"));
     s = [];
     for (const scheduledDate of scheduledDates) {
@@ -298,6 +306,8 @@ function getFirstDance() {
     }
 
     s.sort(sortListOfDicts("day"));
+    console.log(s);
+    console.log(s[0]);
     (s[0] == undefined) ? danceClock.innerText = "SCHEDULE YOUR DANCE! " :  danceClock.innerText = `NEXT DATE SCHEDULED: ${Object.values(s[0]).toString().replaceAll(",", " ")}`;
 
 }

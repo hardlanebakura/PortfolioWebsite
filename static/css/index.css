@@ -539,3 +539,25 @@ div:after{
     }
 
 }
+
+#schedule_dance_info_wrapper {
+
+    display:flex;
+    justify-content:center;
+
+}
+
+#schedule_dance_info {
+
+    max-width:56%;
+    font-family: 'Fira Mono', monospace;
+
+}
+
+#schedule_dance_info p {
+
+  margin-top:4%;
+  text-align: center;
+  font-weight: 400;
+
+}
