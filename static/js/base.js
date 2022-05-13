@@ -288,11 +288,17 @@ function sortListOfDicts(property) {
 
 function getFirstDance() {
 
+    for (const scheduledDate of scheduledDates) scheduledDate["day"] = parseInt(scheduledDate["day"]);
     scheduledDates.sort(sortListOfDicts("month"));
-    scheduledDates.sort(sortListOfDicts("day"));
-    console.log(scheduledDates);
-    console.log(scheduledDates[0]);
-    (scheduledDates[0] == undefined) ? danceClock.innerText = "SCHEDULE YOUR DANCE! " :  danceClock.innerText = `NEXT DATE SCHEDULED: ${Object.values(scheduledDates[0]).toString().replaceAll(",", " ")}`;
+    s = [];
+    for (const scheduledDate of scheduledDates) {
+
+        if (scheduledDate["month"] == scheduledDates[0]["month"]) s.push(scheduledDate);
+
+    }
+
+    s.sort(sortListOfDicts("day"));
+    (s[0] == undefined) ? danceClock.innerText = "SCHEDULE YOUR DANCE! " :  danceClock.innerText = `NEXT DATE SCHEDULED: ${Object.values(s[0]).toString().replaceAll(",", " ")}`;
 
 }
 
