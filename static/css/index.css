@@ -135,7 +135,7 @@
 
 .gothic_main_trip {
 
-    padding:12vw;
+    padding:9vw;
 
 }
 
@@ -519,6 +519,22 @@ div:after{
     80%, 100% {
 
         transform: translateY(10vh) scaleX(.85) rotate(45deg);
+
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .gothic_main_trip {
+
+        padding:12vw;
+
+    }
+
+    #dance_clock {
+
+        font-size:4em;
 
     }
 

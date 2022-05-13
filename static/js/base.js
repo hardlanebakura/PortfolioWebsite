@@ -290,6 +290,7 @@ function getFirstDance() {
 
     scheduledDates.sort(sortListOfDicts("month"));
     scheduledDates.sort(sortListOfDicts("day"));
+    console.log(scheduledDates);
     console.log(scheduledDates[0]);
     (scheduledDates[0] == undefined) ? danceClock.innerText = "SCHEDULE YOUR DANCE! " :  danceClock.innerText = `NEXT DATE SCHEDULED: ${Object.values(scheduledDates[0]).toString().replaceAll(",", " ")}`;
 
