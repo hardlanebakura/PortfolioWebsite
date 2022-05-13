@@ -561,3 +561,11 @@ div:after{
   font-weight: 400;
 
 }
+
+.skull_head_with_roses {
+
+    height:100px;
+    width:100px;
+    transform: translateY(-52px);
+
+}

@@ -122,6 +122,7 @@ monthSelect.addEventListener("change", event => {
                 scheduledDates.push(scheduledDate);
                 postDate(dayHour, scheduledDate);
                 getFirstDance();
+                styleSelectedDate(dayHour);
 
             })
 
@@ -139,7 +140,6 @@ monthSelect.addEventListener("change", event => {
                   console.log(scheduledDates);
                   scheduledDates.forEach(d => {
 
-                    console.log(equalObjects(d, scheduledDate));
                     if (equalObjects(d, scheduledDate)) { scheduledDates.splice(scheduledDates.indexOf(d), 1); console.log(scheduledDates); }
 
                   })
@@ -149,6 +149,7 @@ monthSelect.addEventListener("change", event => {
                   ajaxRequest("DELETE", scheduledDate);
                   unlockOtherHoursInSameDay(rmDate.previousElementSibling);
                   getFirstDance();
+                  styleSelectedDate(rmDate.previousElementSibling);
 
             })
 
@@ -306,10 +307,16 @@ function getFirstDance() {
     }
 
     s.sort(sortListOfDicts("day"));
-    console.log(s);
-    console.log(s[0]);
     (s[0] == undefined) ? danceClock.innerText = "SCHEDULE YOUR DANCE! " :  danceClock.innerText = `NEXT DATE SCHEDULED: ${Object.values(s[0]).toString().replaceAll(",", " ")}`;
 
 }
 
+function styleSelectedDate(dateElement) {
 
+    let date = dateElement.parentNode.parentNode.previousElementSibling;
+    let skullHasRose = date.getElementsByClassName("skull_head_with_roses")[0];
+    (skullHasRose == undefined)
+    ? date.insertAdjacentHTML("beforeend", `<img class = "skull_head_with_roses" src = "../static/images/skull-and-roses-png-transparent.png">`)
+    : skullHasRose.remove();
+
+}
