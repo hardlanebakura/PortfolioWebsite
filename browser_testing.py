@@ -1,13 +1,7 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-import selenium.common.exceptions as e
-from selenium.webdriver.chrome.options import Options
 from log_config import logging
-from collections import OrderedDict
 from operator import itemgetter
 from selenium_config import *
 from selenium.webdriver.remote.remote_connection import LOGGER
-from selenium.webdriver.support.ui import Select
 import json
 import time
 import unittest
