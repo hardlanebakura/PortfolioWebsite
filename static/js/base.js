@@ -166,7 +166,7 @@ monthSelect.addEventListener("change", event => {
                     let dayHours = day.getElementsByClassName("day_hours");
                     Array.from(dayHours).forEach(dayHour => {
 
-                        if (scheduledDate["hour"] == dayHour.innerText) { dayHour.parentNode.style.backgroundColor = "red"; dayHour.style.pointerEvents = "none"; dayHour.nextElementSibling.style.display = "block"; lockOtherHoursInSameDay(dayHour); }
+                        if (scheduledDate["hour"] == dayHour.innerText) { dayHour.parentNode.style.backgroundColor = "red"; dayHour.style.pointerEvents = "none"; dayHour.nextElementSibling.style.display = "block"; lockOtherHoursInSameDay(dayHour); styleSelectedDate(dayHour); }
 
                     })
 
