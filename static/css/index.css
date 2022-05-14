@@ -28,6 +28,7 @@
 .gothic_main {
 
     height: 400px;
+    margin:-10px;
     font-family:"cafeole_roquetteregular", sans-serif;
     background-image:url("../images/gothic_forest.jpg");
     background-size: contain;
