@@ -20,9 +20,7 @@ def api_post():
         scheduled_date = request.get_json()
         time = datetime(2022, datetime.strptime(scheduled_date["month"], "%B").month,
                         int(scheduled_date["day"]), int(scheduled_date["hour"].split(":")[0]), 0, 0)
-        logging.info("ASD")
         if DanceDate.find_all_filter(time) == None:
-            logging.info("1")
             logging.info(time)
             DanceDate.insert_one(time)
         logging.info(time)
@@ -32,7 +30,6 @@ def api_post():
 def api_put():
     if request.headers.get("Content-Type") == "application/json":
         scheduled_dates = request.get_json()
-        logging.info(scheduled_dates)
     return jsonify({"success":True, "response":"Date updated"})
 
 @api_pages.route("/", methods = ["DELETE"])
@@ -41,7 +38,6 @@ def api_delete():
         scheduled_date = request.get_json()
         time = datetime(2022, datetime.strptime(scheduled_date["month"], "%B").month,
                         int(scheduled_date["day"]), int(scheduled_date["hour"].split(":")[0]), 0, 0)
-        logging.info(scheduled_date)
         DanceDate.delete_one(time)
         return jsonify({"success": True, "response": "Date deleted"})
 
