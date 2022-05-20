@@ -4,6 +4,7 @@ from config import *
 from log_config import logging
 from routing.routes import *
 from routing.routes_api import *
+from routing.routes_games import *
 
 import datetime
 
@@ -33,6 +34,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 app.register_blueprint(index_pages)
 app.register_blueprint(api_pages)
+app.register_blueprint(games_pages)
 
 if __name__ == "__main__":
     app.run(debug = True)

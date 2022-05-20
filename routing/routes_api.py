@@ -3,6 +3,7 @@ from jinja2 import TemplateNotFound
 from log_config import logging
 from operator import itemgetter
 from config import *
+from db_models import *
 import json
 
 api_pages = Blueprint('index', __name__,
@@ -11,6 +12,12 @@ api_pages = Blueprint('index', __name__,
 @api_pages.route("/")
 def api():
 
+    json_file = open("data/books.json")
+    data = json.load(json_file)
+    # Book.delete_all()
+    # for book in data["books"]:
+    #     Book.insert_one(book)
+    #     logging.info(Book.find_all())
     return jsonify(DanceDate.find_all())
 
 @api_pages.route("/", methods = ["POST"])

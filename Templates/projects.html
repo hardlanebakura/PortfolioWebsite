@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+  {% block head %}
+
+    <link rel="stylesheet" href="static/css/bootstrap_pagination.css">
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = '/css/books.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  {% endblock %}
+
+{% block body %}
+
+    <div class = "title_wrapper">
+        <div class = 'title'>
+            My projects
+        </div>
+    </div>
+
+    <div class = "main_content_wrapper">
+        <div class = "main_content">
+            <a href = "/dance_with_death">
+                In this fun little project you have a chance to dance with the Grim Reaper himself!
+            </a>
+        </div>
+    </div>
+
+{% endblock %}
+

@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+    <link rel = "stylesheet" href = "../static/css/blog.css">
+
+{% endblock %}
+
+{% block body %}
+
+        <div class = "title_wrapper">
+            <div class = 'title'>
+                Using graphics card to improve your audio and stream? Yes, with Broadcasts NVIDIA
+            </div>
+        </div>
+
+        <div class = "main_content_wrapper">
+            <div class = "main_content">
+
+                <div class = "blog_intro">
+                    <div class = "blog_content_wrapper">
+                        <div class = "blog_intro_content">
+                            With NVIDIA, it's now possible to improve your audio with your GPU
+                        </div>
+                    </div>
+                    <div class = "blog_intro_image">
+                        <img class = "blog_intro_img" src = "../static/images/blogs/broadcast-audio-.jpg">
+                    </div>
+                </div>
+                <div class = "blog_content_wrapper">
+                    <div class = "blog_content">
+                        <p>
+                            What if I told you that a graphics card could be the quickest way to improve your livestream or podcast audio? It sounds counterintuitive, but think about it:
+                            A GPU often has an extreme amount of processing power sitting idle, so why not use that redundant hardware for other things?
+
+                            Fortunately, NVIDIA is way ahead of us, and has already harnessed the potential of its own GPUs to do things beyond, well, graphics. For example, you might remember RTX Voice,
+                            which as the name implies, is a tool for upping your microphone game. Then, it quietly released Broadcast — a more comprehensive tool aimed squarely at streamers and content creators.
+                            Both offer great audio enhancement features, but I'll focus on Broadcast here as that has effectively (though not entirely) replaced RTX Voice.
+
+                        </p>
+
+                        <p>
+                            Right up the top, I should set some expectations. While Broadcast offers some helpful tools for all streamers, the real benefit is for those with more entry-level gear.
+                            For example, if you have something like a Blue Yeti and an older webcam you’re going to get more out of this tool than someone with a Shure SM7B and a Sony A7.
+
+                            Broadcast specifically “uses Tensor Cores on NVIDIA RTX GPUs to accelerate AI calculations so you can game, livestream and run AI networks at the same time.”
+                            It’s compatible with any RTX GPU — GeForce RTX 2060, Quadro RTX 3000, or higher.
+                        </p>
+                        <img class = "blog_content_img" src = "../static/images/blogs/NVIDIA_techo.jpg">
+
+                        <div class = "blog_subtitle">
+                            Audio Tools
+                        </div>
+                        <p>
+                            This is going to help you dial down that dreaded “cave” sound you have probably been battling with.
+                            Also, the amount of setting isn't too large which is always great, and the existing setting work quite good.
+                        </p>
+                        <div class = "blog_subtitle">
+                            Stream Tools
+                        </div>
+                        <p>
+                            In total, there are five effects for cameras. Three for your background: Blur, removal and replace (images or videos work!). Then there is Auto Frame, which crops in and then keeps your face in the center.
+                            Last, but not least, is Video noise removal — this is apt for recording in low light and your camera starts to go all grainy.
+                            You can see some examples in the picture below.
+                            Two were taken using a GoPro and the other pair are from an old DSLR repurposed as a webcam.
+                        </p>
+                        <p>
+                            The last of the video effects is Auto-Frame which, as the name suggests, keeps you locked into the center of your shot.
+                            To do this, the video crops in a little bit and it uses the extra space to gently shift the video from left to right or vice versa as you move around.
+                            The movement isn’t jarring, it looks pretty smooth, and is a good way to make sure you don’t accidentally drift off to the side if you are a fidgeter (like me) and don’t keep still.
+                        </p>
+                        <p class = "blog_more">
+                            You can also combine these effects if you want. Auto-Frame can be stacked with either noise removal or one of the background effects for example, or you could use remove background with noise removal applied.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<script src = "../static/js/blog.js"></script>
+
+{% endblock %}

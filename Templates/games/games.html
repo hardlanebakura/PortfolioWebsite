@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+  {% block head %}
+
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = '/css/games.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  {% endblock %}
+
+{% block body %}
+
+        <div class = "title_wrapper">
+            <div class = 'title'>
+                I want to play a game!
+            </div>
+        </div>
+
+        <div class = "main_content_wrapper">
+            <div class = "main_content">
+
+                <div class = "gamesview">
+                    Play a game with John Kramer, the infamous killer from the 'SAW' franchise. What could possibly go wrong?
+                </div>
+
+                <div class = "games_menu">
+
+                    <div class = "games_icon_main">
+                        <img class = "games_icon_main_img" src = "../static/images/stock-vector-billy-doll-saw-vector-illustration-doll-halloween-costume-character-sticker-1180672708_white.jpg">
+                    </div>
+
+                    <div class = "games_icons">
+
+                        <div class = "games_icon">
+                            <a href = "/games/hangman">
+                                <img class = "games_icon_img" src = "../static/images/hanged-man-icon-with.jpg">
+                                <div class = "games_icon_title">HANGMAN</div>
+                            </a>
+                        </div>
+
+                        <div class = "games_icon">
+                            <a href = "/games/memory">
+                                <img class = "games_icon_img" src = "../static/images/light-icon-vector-bulb-ideas_4979106-scaled_black.jpg" style = "margin-left:14px">
+                                <div class = "games_icon_title">MEMORY GAME</div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+<script src = "{{ url_for('static', filename = 'js/games.js') }}"></script>
+
+{% endblock %}
+

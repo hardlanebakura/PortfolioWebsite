@@ -1,0 +1,56 @@
+.grid {
+
+    height:400px;
+    width:400px;
+    background-image:url("../images/stock-vector-billy-doll-saw-vector-illustration-doll-halloween-costume-character-sticker-1180672708_bicycle.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.grid_row {
+
+    height:100px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.grid_element {
+
+    border:2px solid #000;
+
+}
+
+#start_memory {
+
+    margin-top:4%;
+    display:flex;
+    justify-content:center;
+
+}
+
+#start_memory_button {
+
+
+
+}
+
+#new_game {
+
+    margin-left:7%;
+    margin-right:7%;
+    color:red;
+    text-align:center;
+    display:none;
+    transform:translateY(-238px);
+
+}
+
+.main_content {
+
+    height:400px;
+    width:400px;
+
+}

@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+
+  {% block head %}
+
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = '/css/hangman.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script>
+
+        var quiz = {{ quiz|tojson }}
+
+    </script>
+
+  {% endblock %}
+
+{% block body %}
+
+        <div class = "title_wrapper">
+            <div class = 'title'>
+                Live or die, make your choice
+            </div>
+            <div class = "glitch_text">
+                  <span>Just because</span>
+                  <span class="light">you're dead</span>
+                  <span>doesn't mean</span>
+                  <span>you can't</span>
+                  <span>try again</span>
+            </div>
+        </div>
+
+        <div class = "main_content_wrapper">
+            <div class = "main_content">
+
+                <div id = "hangman">
+
+                        <div id = "stage">
+
+                        </div>
+
+                        <div id = "many_lives">
+                            {% for i in range (4) %}
+                                <div class = "attempt">
+                                    X
+                                </div>
+                            {% endfor %}
+                        </div>
+
+                        <div class = "quiz_letters">
+                            {% for i in range(2) %}
+                                <div class = "letter_row">
+                                    {% for j in range(13) %}
+                                        <button class = "letter_button" onclick = "checkLetter(event)"></button>
+                                    {% endfor %}
+                                </div>
+                            {% endfor %}
+                        </div>
+
+                        <div class = "quiz_content">
+                            <div class = "q_title_wrapper">
+                                <div id = "quiz_title">
+
+                                </div>
+                            </div>
+                            {% set rows_n = (quiz[0]["question"]|length/14)|round(method = "ceil")|int %}
+                            <div id = "quiz_question_wrapper">
+                                <div id = "quiz_question">
+
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div id = "glitch">
+                    <img id = "glitch_img" src = "../static/images/stock-vector-billy-doll-saw-vector-illustration-doll-halloween-costume-character-sticker-1180672708.jpg">
+                    <div id = "glitch_layers">
+                        <div class = "glitch_layer"></div>
+                        <div class = "glitch_layer"></div>
+                        <div class = "glitch_layer"></div>
+                    </div>
+                </div>
+
+                <div id = "glitch_text_1">
+                    <h1>NICELY DONE!</h1>
+                </div>
+
+                    <div id = "glitch_text_2">
+                        <div id = "glitch_text_content">
+
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+
+<script src = "{{ url_for('static', filename = 'js/hangman.js') }}"></script>
+
+{% endblock %}
+

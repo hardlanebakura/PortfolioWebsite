@@ -1,0 +1,116 @@
+{
+  "books" : [
+  {
+    "name": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630460042l/11297._SY75_.jpg",
+    "review": "The most famous book by Murakami, it masterfully tackles all the aspects of human relationships, feels extremely real"
+  },
+  {
+    "name": "The Maltese Falcon",
+    "author": "Dashiel Hammett",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1306421260l/29999._SY75_.jpg",
+    "review": "Standard for book noir, the main protagonist is as hard boiled as it gets"
+  },
+  {
+    "name": "Siddhartha",
+    "author": "Hermann Hesse",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1629378189l/52036._SY75_.jpg",
+    "review": "Master Hesse's masterclass. Period."
+  },
+  {
+    "name": "The Hunt for Red October",
+    "author": "Tom Clancy",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281995542l/19691._SX50_.jpg",
+    "review": "This book is so phenomenal and the research writing is so extensive that Tom Clancy was thought to be briefed by The White House!"
+  },
+  {
+    "name": "Splinter Cell",
+    "author": "Tom Clancy",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347599614l/13399._SY75_.jpg",
+    "review": "A very entertaining stealth thrill ride"
+  },
+  {
+    "name": "Call of the Wild",
+    "author": "Jack London",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1452291694l/1852._SY75_.jpg",
+    "review": "Adventure tale about survival in the wilderness"
+  },
+  {
+    "name": "The Winner Stands Alone",
+    "author": "Paulo Coelho",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358266380l/5356711._SY75_.jpg",
+    "review": "Easily Coelho's most underrated novel"
+  },
+  {
+    "name": "Salvation of a Saint",
+    "author": "Keigo Higashino",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495618717l/13506866._SX50_.jpg",
+    "review": "Phenomenal thriller"
+  },
+    {
+    "name": "After Dark",
+    "author": "Haruki Murakami",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437952316l/17803._SY75_.jpg",
+    "review": "A hypnotic and dreamy novel with a cinematic vision"
+  },
+  {
+    "name": "Prometheus Bound",
+    "author": "Aeschylus",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407894339l/297593._SY75_.jpg",
+    "review": "This book is really powerful and relevant in modern times"
+  },
+  {
+    "name": "Macbeth",
+    "author": "William Shakespeare",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459795224l/8852._SY75_.jpg",
+    "review": "My favorite by Shakespeare"
+  },
+  {
+    "name": "Antigone",
+    "author": "Sophocles",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486701308l/7728._SY75_.jpg",
+    "review": "A really powerful book about love and heroism"
+  },
+  {
+    "name": "Do Androids Dream of Electric Sheep?",
+    "author": "Phillip K. Dick",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507838927l/36402034._SY75_.jpg",
+    "review": "Absolutely brilliant"
+  },
+  {
+    "name": "The Abbess of Castro",
+    "author": "Stendhal",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385990034l/18811401._SX50_.jpg",
+    "review": "A deeply moving tale about heroism and honor"
+  },
+  {
+    "name": "The Plains",
+    "author": "Gerald Murnane",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348154093l/1593668._SY75_.jpg",
+    "review": "This book feels more like something you've seen painted rather than something you've read"
+  },
+  {
+    "name": "The Prince",
+    "author": "Niccolo Macchiavelli",
+    "rating": 5,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390055828l/28862._SY75_.jpg",
+    "review": "Extremely powerful novel about deploying various tactics to win"
+  }
+  ]
+}

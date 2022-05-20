@@ -1,0 +1,61 @@
+.games_menu {
+
+    margin-top:4%;
+    display:flex;
+
+}
+
+.gamesview {
+
+
+
+}
+
+.main_content {
+
+    overflow-y:auto;
+
+}
+
+.games_icon {
+
+    margin-inline:22px;
+
+}
+
+.games_icon_main {
+
+
+
+}
+
+.games_icon_main_img {
+
+    height:140px;
+    width:140px;
+
+}
+
+.games_icon_img {
+
+    height: 96px;
+    width: 68px;
+    margin-top: 14px;
+
+}
+
+.games_icon a {
+
+    color:inherit;
+    text-decoration:none;
+
+}
+
+.games_icons {
+
+    margin-left:22%;
+    display:flex;
+    justify-content:center;
+
+}
+

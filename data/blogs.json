@@ -1,0 +1,24 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "How I stopped worrying and learned to love the bomb",
+      "template": "how_i_stopped_worrying_and_learned_to_love_the_bomb"
+    },
+    {
+      "id": 2,
+      "title": "Google's feature to practice for the job interview with the AI is awesome!",
+      "template": "ai_job"
+    },
+    {
+      "id": 3,
+      "title": "Using graphics card to improve your audio and stream? Yes, with Broadcasts NVIDIA",
+      "template": "using_graphics_card_to_improve_your_audio_and_stream"
+    },
+    {
+      "id": 4,
+      "title": "The Evercade VS captures the retro spirit",
+      "template": "evercade_vs_captures_the_retro_spirit"
+    }
+  ]
+}

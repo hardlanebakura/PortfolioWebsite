@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+  {% block head %}
+
+    <link rel="stylesheet" href="static/css/bootstrap_pagination.css">
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = '/css/books.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  {% endblock %}
+
+{% block body %}
+
+    <div class = "title_wrapper">
+        <div class = 'title'>
+            Books I love
+        </div>
+    </div>
+
+    <div class = "main_content_wrapper">
+        <div class = "main_content">
+
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <tbody>
+                        {% for book in books %}
+                        <div class = "book">
+                            <div class = "book_info">
+                                <img class = "book_img" src = "{{ book['img'] }}">
+                                <div class = "book_title">
+                                    {{ book["name"] }}
+                                </div>
+                                <div class = "book_author">
+                                    {{ book["author"] }}
+                                </div>
+                            </div>
+                            <div class = "book_overlay">
+                                <div class = "book_description">
+                                    {{ book["review"] }}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                {{ pagination.links }}
+
+        </div>
+    </div>
+
+{% endblock %}
+

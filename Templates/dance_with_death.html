@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+  {% block head %}
+
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = '/css/dance_with_death.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script>
+
+        var danceDates = {{ dance_dates|tojson }}
+
+    </script>
+
+  {% endblock %}
+
+{% block body %}
+
+    <div class = "dance_wrapper">
+        <div class = "dance_with_death">
+            <div class = "dance_with_death_scheduling">
+                Schedule your appointment!
+            </div>
+            <div id = "date_selection">
+                <form action = "/">
+                    <select name = "month_select" id = "month_select">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <input id = "submitting_dance" type = "submit" name = "submit" value = "SUBMIT" onclick = "selectDate()">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div id = "dance_clock_wrapper">
+        <div id = "dance_clock">
+            SCHEDULE YOUR DANCE!
+        </div>
+    </div>
+
+    <div id = "schedule_dance_info_wrapper">
+        <div id = "schedule_dance_info">
+            <p>
+                In Ingmar Bergman's famous movie "The Seventh Seal" the protagonist had the chance to dance with Death. Here we've gone a step further, giving you a chance to dance with the Grim Reaper.
+                Watch your step, it's six feet down!
+            </p>
+        </div>
+    </div>
+
+<script src = "{{ url_for('static', filename = 'js/dance_with_death.js') }}"></script>
+
+{% endblock %}
+

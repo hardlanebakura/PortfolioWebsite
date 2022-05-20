@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+    <link rel = "stylesheet" href = "../static/css/blog.css">
+
+{% endblock %}
+
+{% block body %}
+
+        <div class = "title_wrapper">
+            <div class = 'title'>
+                Blog
+            </div>
+        </div>
+
+        <div class = "main_content_wrapper">
+            <div class = "main_content">
+
+                {% for blog in blogs %}
+                    <div class = "blog_selection">
+                        <a class = "blog_link" href = "blog/{{ blog.id }}">
+                            {{ blog.title }}
+                        </a>
+                    </div>
+                {% endfor %}
+
+            </div>
+        </div>
+
+<script src = "../static/js/blog.js"></script>
+
+{% endblock %}
