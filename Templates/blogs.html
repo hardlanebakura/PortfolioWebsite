@@ -18,11 +18,19 @@
             <div class = "main_content">
 
                 {% for blog in blogs %}
+                <a class = "link_blog" href = "/">
                     <div class = "blog_selection">
-                        <a class = "blog_link" href = "blog/{{ blog.id }}">
-                            {{ blog.title }}
-                        </a>
+                            <img class = "blog_selection_img" src = "{{ blog.img }}">
+                            <div class = "blog_selection_content">
+                                <div class = "blog_selection_title">
+                                        {{ blog.title }}
+                                </div>
+                                <div class = "blog_selection_subtitle">
+                                        {{ blog.subtitle }}
+                                </div>
+                            </div>
                     </div>
+                </a>
                 {% endfor %}
 
             </div>

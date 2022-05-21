@@ -14,10 +14,6 @@ def api():
 
     json_file = open("data/books.json")
     data = json.load(json_file)
-    # Book.delete_all()
-    # for book in data["books"]:
-    #     Book.insert_one(book)
-    #     logging.info(Book.find_all())
     return jsonify(DanceDate.find_all())
 
 @api_pages.route("/", methods = ["POST"])

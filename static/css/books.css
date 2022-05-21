@@ -70,6 +70,18 @@ nav {
 
 }
 
+.main_project_row {
 
+    margin-bottom: 18px;
+    display:flex;
+
+}
+
+.main_project_link_1 {
+
+    width:67%;
+    margin-right:22%;
+
+}
 
 
