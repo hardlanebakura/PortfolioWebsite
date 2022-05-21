@@ -24,8 +24,8 @@ for (let i = 0; i < letterButtons.length; i++) letterButtons[i].innerText = alph
 function newQuestion() {
 
     randomQuiz = quiz[Math.floor(Math.random() * quiz.length)];
-    console.log(randomQuiz);
-    console.log(quiz);
+//    console.log(randomQuiz);
+//    console.log(quiz);
     randomIndex = quiz.indexOf(randomQuiz);
     randomGenre = randomQuiz["genre"];
     randomQuiz = randomQuiz["question"];
@@ -43,10 +43,10 @@ function newQuestion() {
 
     }
 
-    console.log(questionContent);
+    //console.log(questionContent);
 
     quizQuestion.innerText = questionContent;
-    console.log(quizQuestion.innerText.length);
+    //console.log(quizQuestion.innerText.length);
     stage.innerText = `Current stage: ${currentStage}/10`;
 
 
