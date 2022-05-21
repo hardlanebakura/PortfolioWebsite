@@ -7,6 +7,8 @@ logging.info(DatabaseAtlas.db.list_collection_names())
 
 
 def is_english(s):
+    if not isinstance(s, str):
+        raise TypeError("Expected string input")
     try:
         s.encode(encoding='utf-8').decode('ascii')
     except UnicodeDecodeError:
@@ -14,17 +16,21 @@ def is_english(s):
     else:
         return True
 
-all_movies = [item for item in DatabaseAtlas.findAll("movies2", {}) if "\\" not in item["original_title"] and "'" not in item["original_title"] and is_english(item["original_title"]) and (item["original_title"].isalpha() or " " in item["original_title"])]
+def movies_check(s):
+    if not isinstance(s, str):
+        raise TypeError("Expected string input")
+    if "\\" in s:
+        return False
+    elif (s.isalpha() or " " in s):
+        return True
 
-logging.info([item["original_title"] for item in all_movies])
-for item in all_movies:
-    item["title"] = item["original_title"]
-    item["title"] = item["title"].replace(":", "")
-    logging.info(item["title"])
+all_movies = [item for item in DatabaseAtlas.findAll("movies2", {}) if is_english(item["original_title"]) and movies_check(item["original_title"])]
 
 for item in all_movies:
+    item["title"] = item["original_title"].replace(":", "")
     item["genre"] = "movies"
     item["question"] = item["title"]
+    logging.info(item["title"])
 
 d = {}
 d["questions"] = all_movies

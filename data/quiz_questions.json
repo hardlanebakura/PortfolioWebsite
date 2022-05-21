@@ -35,6 +35,73 @@
             "question": "The Godfather"
         },
         {
+            "id": 724089,
+            "original_language": "en",
+            "original_title": "Gabriel's Inferno Part II",
+            "overview": "Professor Gabriel Emerson finally learns the truth about Julia Mitchell's identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another's arms?",
+            "popularity": 8.244,
+            "poster_path": "/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg",
+            "title": "Gabriel's Inferno Part II",
+            "vote_average": 8.7,
+            "genres": [
+                "Romance"
+            ],
+            "release_date": "2020",
+            "genre": "movies",
+            "question": "Gabriel's Inferno Part II"
+        },
+        {
+            "id": 761053,
+            "original_language": "en",
+            "original_title": "Gabriel's Inferno Part III",
+            "overview": "The final part of the film adaption of the erotic romance novel Gabriel's Inferno written by an anonymous Canadian author under the pen name Sylvain Reynard.",
+            "popularity": 24.938,
+            "poster_path": "/qtX2Fg9MTmrbgN1UUvGoCsImTM8.jpg",
+            "title": "Gabriel's Inferno Part III",
+            "vote_average": 8.6,
+            "genres": [
+                "Romance",
+                "Comedy"
+            ],
+            "release_date": "2020",
+            "genre": "movies",
+            "question": "Gabriel's Inferno Part III"
+        },
+        {
+            "id": 424,
+            "original_language": "en",
+            "original_title": "Schindler's List",
+            "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+            "popularity": 35.13,
+            "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+            "title": "Schindler's List",
+            "vote_average": 8.6,
+            "genres": [
+                "Drama",
+                "History",
+                "War"
+            ],
+            "release_date": "1993",
+            "genre": "movies",
+            "question": "Schindler's List"
+        },
+        {
+            "id": 696374,
+            "original_language": "en",
+            "original_title": "Gabriel's Inferno",
+            "overview": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love.",
+            "popularity": 10.714,
+            "poster_path": "/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
+            "title": "Gabriel's Inferno",
+            "vote_average": 8.6,
+            "genres": [
+                "Romance"
+            ],
+            "release_date": "2020",
+            "genre": "movies",
+            "question": "Gabriel's Inferno"
+        },
+        {
             "id": 240,
             "original_language": "en",
             "original_title": "The Godfather: Part II",
@@ -329,6 +396,22 @@
             "question": "Psycho"
         },
         {
+            "id": 510,
+            "original_language": "en",
+            "original_title": "One Flew Over the Cuckoo's Nest",
+            "overview": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy, inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
+            "popularity": 17.348,
+            "poster_path": "/3jcbDmRFiQ83drXNOvRDeKHxS0C.jpg",
+            "title": "One Flew Over the Cuckoo's Nest",
+            "vote_average": 8.4,
+            "genres": [
+                "Drama"
+            ],
+            "release_date": "1975",
+            "genre": "movies",
+            "question": "One Flew Over the Cuckoo's Nest"
+        },
+        {
             "id": 550,
             "original_language": "en",
             "original_title": "Fight Club",
@@ -577,6 +660,25 @@
             "question": "American History X"
         },
         {
+            "id": 791373,
+            "original_language": "en",
+            "original_title": "Zack Snyder's Justice League",
+            "overview": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+            "popularity": 406.443,
+            "poster_path": "/yWmbO5tQNlIpIEt6nNKD72TpXtM.jpg",
+            "title": "Zack Snyder's Justice League",
+            "vote_average": 8.4,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy",
+                "Science Fiction"
+            ],
+            "release_date": "2021",
+            "genre": "movies",
+            "question": "Zack Snyder's Justice League"
+        },
+        {
             "id": 120,
             "original_language": "en",
             "original_title": "The Lord of the Rings: The Fellowship of the Ring",
@@ -753,6 +855,23 @@
             "question": "The Silence of the Lambs"
         },
         {
+            "id": 42269,
+            "original_language": "it",
+            "original_title": "C'eravamo tanto amati",
+            "overview": "Three partisans bound by a strong friendship return home after the war, but the clash with everyday reality puts a strain on their bond.",
+            "popularity": 6.219,
+            "poster_path": "/zGGWYpiKNwjpKxelPxOMqJnUgDs.jpg",
+            "title": "C'eravamo tanto amati",
+            "vote_average": 8.3,
+            "genres": [
+                "Drama",
+                "Comedy"
+            ],
+            "release_date": "1974",
+            "genre": "movies",
+            "question": "C'eravamo tanto amati"
+        },
+        {
             "id": 207,
             "original_language": "en",
             "original_title": "Dead Poets Society",
@@ -805,6 +924,23 @@
             "question": "Doctor Who The Day of the Doctor"
         },
         {
+            "id": 335,
+            "original_language": "it",
+            "original_title": "C'era una volta il West",
+            "overview": "As the railroad builders advance unstoppably through the Arizona desert on their way to the sea, Jill arrives in the small town of Flagstone with the intention of starting a new life.",
+            "popularity": 19.311,
+            "poster_path": "/qbYgqOczabWNn2XKwgMtVrntD6P.jpg",
+            "title": "C'era una volta il West",
+            "vote_average": 8.3,
+            "genres": [
+                "Drama",
+                "Western"
+            ],
+            "release_date": "1968",
+            "genre": "movies",
+            "question": "C'era una volta il West"
+        },
+        {
             "id": 843906,
             "original_language": "en",
             "original_title": "Straight Outta Nowhere: Scooby-Doo! Meets Courage the Cowardly Dog",
@@ -825,6 +961,24 @@
             "question": "Straight Outta Nowhere Scooby-Doo! Meets Courage the Cowardly Dog"
         },
         {
+            "id": 664767,
+            "original_language": "en",
+            "original_title": "Mortal Kombat Legends: Scorpion's Revenge",
+            "overview": "After the vicious slaughter of his family by stone-cold mercenary Sub-Zero, Hanzo Hasashi is exiled to the torturous Netherrealm. There, in exchange for his servitude to the sinister Quan Chi, he\u2019s given a chance to avenge his family \u2013 and is resurrected as Scorpion, a lost soul bent on revenge. Back on Earthrealm, Lord Raiden gathers a team of elite warriors \u2013 Shaolin monk Liu Kang, Special Forces officer Sonya Blade and action star Johnny Cage \u2013 an unlikely band of heroes with one chance to save humanity. To do this, they must defeat Shang Tsung\u2019s horde of Outworld gladiators and reign over the Mortal Kombat tournament.",
+            "popularity": 40.856,
+            "poster_path": "/4VlXER3FImHeFuUjBShFamhIp9M.jpg",
+            "title": "Mortal Kombat Legends Scorpion's Revenge",
+            "vote_average": 8.3,
+            "genres": [
+                "Animation",
+                "Action",
+                "Fantasy"
+            ],
+            "release_date": "2020",
+            "genre": "movies",
+            "question": "Mortal Kombat Legends Scorpion's Revenge"
+        },
+        {
             "id": 975,
             "original_language": "en",
             "original_title": "Paths of Glory",
@@ -840,6 +994,24 @@
             "release_date": "1957",
             "genre": "movies",
             "question": "Paths of Glory"
+        },
+        {
+            "id": 10376,
+            "original_language": "it",
+            "original_title": "La leggenda del pianista sull'oceano",
+            "overview": "The story of a virtuoso piano player who lives his entire life aboard an ocean liner. Born and raised on the ship, 1900 (Tim Roth) learned about the outside world through interactions with passengers, never setting foot on land, even for the love of his life. Years later, the ship may be destroyed, and a former band member fears that 1900 may still be aboard, willing to go down with the ship.",
+            "popularity": 14.528,
+            "poster_path": "/iOcbJ5pxokOPDRgieVDbsFMrCc6.jpg",
+            "title": "La leggenda del pianista sull'oceano",
+            "vote_average": 8.3,
+            "genres": [
+                "Drama",
+                "Music",
+                "Romance"
+            ],
+            "release_date": "1998",
+            "genre": "movies",
+            "question": "La leggenda del pianista sull'oceano"
         },
         {
             "id": 105,
@@ -1117,6 +1289,24 @@
             "release_date": "1960",
             "genre": "movies",
             "question": "Le Trou"
+        },
+        {
+            "id": 1585,
+            "original_language": "en",
+            "original_title": "It's a Wonderful Life",
+            "overview": "A holiday favourite for generations...  George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company.  But on Christmas Eve the business's $8,000 is lost and George's troubles begin.",
+            "popularity": 24.533,
+            "poster_path": "/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg",
+            "title": "It's a Wonderful Life",
+            "vote_average": 8.3,
+            "genres": [
+                "Drama",
+                "Family",
+                "Fantasy"
+            ],
+            "release_date": "1946",
+            "genre": "movies",
+            "question": "It's a Wonderful Life"
         },
         {
             "id": 37257,
@@ -1806,6 +1996,24 @@
             "question": "The Help"
         },
         {
+            "id": 872,
+            "original_language": "en",
+            "original_title": "Singin' in the Rain",
+            "overview": "In 1927 Hollywood, a silent film production company and cast make a difficult transition to sound.",
+            "popularity": 16.376,
+            "poster_path": "/w03EiJVHP8Un77boQeE7hg9DVdU.jpg",
+            "title": "Singin' in the Rain",
+            "vote_average": 8.2,
+            "genres": [
+                "Comedy",
+                "Music",
+                "Romance"
+            ],
+            "release_date": "1952",
+            "genre": "movies",
+            "question": "Singin' in the Rain"
+        },
+        {
             "id": 439,
             "original_language": "it",
             "original_title": "La dolce vita",
@@ -1888,6 +2096,23 @@
             "release_date": "1998",
             "genre": "movies",
             "question": "Central do Brasil"
+        },
+        {
+            "id": 92060,
+            "original_language": "en",
+            "original_title": "Michael Jackson's Thriller",
+            "overview": "A night at the movies turns into a nightmare when Michael and his date are attacked by a hoard of bloody-thirsty zombies.",
+            "popularity": 7.751,
+            "poster_path": "/dxi3fkAtPm4c5Sw2KJNM7nawhsw.jpg",
+            "title": "Michael Jackson's Thriller",
+            "vote_average": 8.2,
+            "genres": [
+                "Horror",
+                "Music"
+            ],
+            "release_date": "1983",
+            "genre": "movies",
+            "question": "Michael Jackson's Thriller"
         },
         {
             "id": 603,
@@ -2295,6 +2520,24 @@
             "question": "Love, Simon"
         },
         {
+            "id": 522518,
+            "original_language": "en",
+            "original_title": "A Dog's Journey",
+            "overview": "A dog finds the meaning of his own existence through the lives of the humans he meets.",
+            "popularity": 48.883,
+            "poster_path": "/wquJChp0NpoqthYdE3YjXNNxvVC.jpg",
+            "title": "A Dog's Journey",
+            "vote_average": 8.1,
+            "genres": [
+                "Family",
+                "Adventure",
+                "Drama"
+            ],
+            "release_date": "2019",
+            "genre": "movies",
+            "question": "A Dog's Journey"
+        },
+        {
             "id": 12445,
             "original_language": "en",
             "original_title": "Harry Potter and the Deathly Hallows: Part 2",
@@ -2393,6 +2636,23 @@
             "release_date": "1948",
             "genre": "movies",
             "question": "The Red Shoes"
+        },
+        {
+            "id": 780,
+            "original_language": "fr",
+            "original_title": "La passion de Jeanne d'Arc",
+            "overview": "A classic of the silent age, this film tells the story of the doomed but ultimately canonized 15th-century teenage warrior. On trial for claiming she'd spoken to God, Jeanne d'Arc is subjected to inhumane treatment and scare tactics at the hands of church court officials. Initially bullied into changing her story, Jeanne eventually opts for what she sees as the truth. Her punishment, a famously brutal execution, earns her perpetual martyrdom.",
+            "popularity": 9.592,
+            "poster_path": "/8OYGtQlO8k9PcOm49apV62eVJQo.jpg",
+            "title": "La passion de Jeanne d'Arc",
+            "vote_average": 8.1,
+            "genres": [
+                "Drama",
+                "History"
+            ],
+            "release_date": "1928",
+            "genre": "movies",
+            "question": "La passion de Jeanne d'Arc"
         },
         {
             "id": 573164,
@@ -3551,6 +3811,23 @@
             "question": "Luca"
         },
         {
+            "id": 28178,
+            "original_language": "en",
+            "original_title": "Hachi: A Dog's Tale",
+            "overview": "A drama based on the true story of a college professor's bond with the abandoned dog he takes into his home.",
+            "popularity": 42.019,
+            "poster_path": "/lsy3aEsEfYIHdLRk4dontZ4s85h.jpg",
+            "title": "Hachi A Dog's Tale",
+            "vote_average": 8,
+            "genres": [
+                "Drama",
+                "Family"
+            ],
+            "release_date": "2009",
+            "genre": "movies",
+            "question": "Hachi A Dog's Tale"
+        },
+        {
             "id": 25376,
             "original_language": "es",
             "original_title": "El secreto de sus ojos",
@@ -3638,6 +3915,22 @@
             "release_date": "1994",
             "genre": "movies",
             "question": "Trois couleurs  Rouge"
+        },
+        {
+            "id": 20271,
+            "original_language": "it",
+            "original_title": "Divorzio all'italiana",
+            "overview": "Ferdinando Cefal\u00f9 is desperate to marry his cousin, Angela, but he is married to Rosalia and divorce is illegal in Italy. To get around the law, he tries to trick his wife into having an affair so he can catch her and murder her, as he knows he would be given a light sentence for killing an adulterous woman. He persuades a painter to lure his wife into an affair, but Rosalia proves to be more faithful than he expected.",
+            "popularity": 5.59,
+            "poster_path": "/vZbdSpUFyFiDBBTY0AiSrN9f303.jpg",
+            "title": "Divorzio all'italiana",
+            "vote_average": 8,
+            "genres": [
+                "Comedy"
+            ],
+            "release_date": "1961",
+            "genre": "movies",
+            "question": "Divorzio all'italiana"
         },
         {
             "id": 13223,
@@ -4984,6 +5277,23 @@
             "release_date": "1983",
             "genre": "movies",
             "question": "Return of the Jedi"
+        },
+        {
+            "id": 671,
+            "original_language": "en",
+            "original_title": "Harry Potter and the Philosopher's Stone",
+            "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard\u2014with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths\u2014and about the villain who's to blame.",
+            "popularity": 319.544,
+            "poster_path": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+            "title": "Harry Potter and the Philosopher's Stone",
+            "vote_average": 7.9,
+            "genres": [
+                "Adventure",
+                "Fantasy"
+            ],
+            "release_date": "2001",
+            "genre": "movies",
+            "question": "Harry Potter and the Philosopher's Stone"
         },
         {
             "id": 323272,
