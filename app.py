@@ -1,12 +1,8 @@
-from flask import Flask, render_template, request, redirect, url_for, jsonify, session
 from flask_cors import CORS, cross_origin
-from config import *
 from log_config import logging
 from routing.routes import *
 from routing.routes_api import *
 from routing.routes_games import *
-
-import datetime
 
 def create_app():
     app = Flask(__name__, template_folder = "Templates")

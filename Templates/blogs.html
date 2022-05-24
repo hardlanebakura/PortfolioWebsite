@@ -18,7 +18,7 @@
             <div class = "main_content">
 
                 {% for blog in blogs %}
-                <a class = "link_blog" href = "/">
+                <a class = "link_blog" href = "/blog/{{ blog.id }}">
                     <div class = "blog_selection">
                             <img class = "blog_selection_img" src = "{{ blog.img }}">
                             <div class = "blog_selection_content">
