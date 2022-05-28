@@ -22,9 +22,6 @@ app = create_app()
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-#create all databases
-#with app.app_context():
-    #db.create_all()
 # app = create_app()
 # app.app_context().push()
 

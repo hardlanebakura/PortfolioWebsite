@@ -47,4 +47,5 @@ def api_delete():
 @api_pages.route("/delete_all")
 def api_delete_all():
     DanceDate.delete_all()
+    logging.info("1")
     return jsonify({"success": True, "response": "All is deleted"})
